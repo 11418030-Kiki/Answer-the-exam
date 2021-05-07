@@ -1,0 +1,19 @@
+1. Pastikan telah menginstall local web server (xampp / wampp / lamp, etc)
+2. Pastikan Service Web Server dan MysqlServer telah dalam keadaan menyala
+3. Salin folder "kuis_online" pada direkori htdocs (ex . xampp/htdocs )
+4. Buat database dengan nama "kuis" pada mysql server
+5. Import kuis.sql ke dalam database kuis
+6. Jika anda menggunakan nama database lain atau user mysql yang lain sunting file HTDOCS/kuis_online/app/config/database.php (baris 55)
+7. Buka pada browser dengan alamat http://localhost/kuis_online/public
+
+Default user
+Admin
+user : admin@demo.com
+password : admin
+
+User Biasa
+user : user@user.com
+password : user
+user : bambang@user.com
+password : bambang
+
